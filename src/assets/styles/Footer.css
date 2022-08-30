@@ -1,0 +1,154 @@
+.footer1 {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  padding-bottom: 50px;
+}
+.footer {
+  width: 96%;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+.MediaIcons {
+  display: flex;
+  gap: 10px;
+}
+.routesContainer {
+  display: flex;
+  /* max-width: 450px; */
+  justify-content: space-around;
+  gap: 50px;
+}
+a {
+  cursor: pointer;
+}
+.routes h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+  color: #000429;
+}
+.footer2Conatiner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer2Img {
+  width: 150px;
+  cursor: pointer;
+}
+.footer2Conatiner p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  /* or 200% */
+
+  letter-spacing: -0.02em;
+
+  color: #8a91a8;
+}
+.copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #8a91a8;
+}
+.routes a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-bottom: 20px !important;
+  letter-spacing: -0.02em;
+  color: #8a91a8;
+}
+.socialsContainer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000429;
+  padding: 14px 0px;
+}
+.MediaIcons {
+  width: 40%;
+}
+.socialImg {
+  width: 35% !important;
+}
+
+.policies {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+}
+.ContactsContainer {
+  width: 50%;
+}
+.ContactsContainer p{
+  margin-top: 40px;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+display: flex;
+align-items: center;
+
+/* Gray */
+
+color: #777777;
+}
+.policies img {
+  padding-top: 8px;
+}
+.policyLinks {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.category {
+  display: block;
+}
+
+@media (max-width: 760px) {
+  .footer1 {
+    display: block;
+  }
+  .ContactsContainer {
+    width: 90%;
+  }
+  .footer2Conatiner {
+    display: block;
+  }
+  .socialsContainer p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000429;
+    padding: 15px 0px;
+  }
+ 
+  .footer2Img {
+    width: 150px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center !important;
+  }
+  .footer {
+    padding: 55px 0px;
+    width: 96%;
+    margin: 0 auto;
+  }
+}

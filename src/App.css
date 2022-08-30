@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Font;
+  src: url(./Fonts/manrope/fonts/otf/Manrope-Regular.ot);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-family: Font;
+
+}
+img {
+  max-width: 100%;
+}

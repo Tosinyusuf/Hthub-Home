@@ -1,0 +1,37 @@
+.notfoundContainer img {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.notfoundContainer a {
+  font-family: 'PolySans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  line-height: 67px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #000429;
+}
+.notfoundContainer h1 {
+  font-family: 'PolySans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 67px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #000429;
+}
+.notfoundContainer p {
+  font-family: 'PolySans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 67px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #000429;
+}

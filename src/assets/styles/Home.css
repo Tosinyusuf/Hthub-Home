@@ -1,0 +1,601 @@
+@font-face {
+  font-family: Font;
+  src: url(../../Fonts/manrope/fonts/webfonts/Manrope-Regular.woff2);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-family: Font;
+
+}
+
+.BusinessWrapper h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 67px;
+  letter-spacing: -0.03em;
+  max-width: 550px;
+  color: #fff;
+}
+.mark {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+align-items: center;
+}
+.mark p {
+  font-family: 'Open Sans' !important;
+font-style: normal !important;
+font-weight: 400 !important;
+font-size: 20px !important;
+line-height: 32px !important;
+/* or 160% */
+padding-top: 0px !important;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.marks {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+  background: #0A2640;
+box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+padding: 10px;
+color: #fff;
+align-items: center;
+}
+.bulletin {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+padding: 10px;
+color: #000;
+align-items: center;
+}
+
+.connect2Body {
+  width: 75%;
+}
+.connect2 {
+  width: 90%;
+  padding-top: 100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 4.4fr 4fr;
+  gap: 10px;
+  align-items: center;
+}
+.connect2 h3 {
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 56px;
+/* or 156% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.connect {
+  width: 90%;
+  padding-top: 100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 4.4fr 4fr;
+  /* gap: 10px; */
+  align-items: center;
+}
+.connect h3 {
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 56px;
+/* or 156% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.btn {
+  margin-top: 20px;
+}
+.service p{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+ text-align: center;
+ padding-top:60px;
+
+}
+.customerContainer {
+  width: 73%;
+  margin-top: 40px !important;
+  margin: 0 auto;
+}
+.customerBody {
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  gap: 60px;
+}
+.Blog {
+  width: 90%;
+  margin: 0 auto;
+}
+.highlightWrapper {
+  display: block !important;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.highlight {
+  display: grid;
+  gap: 20px;
+  align-items: center ;
+  grid-template-columns: 2fr 0.4fr;
+  align-items: center;
+}
+.highlight img {
+  padding-top: 15px;
+}
+.customerBody > div {
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 56px;
+/* or 156% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.Cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 40px;
+
+}
+.CardsContent1, .CardsContent {
+  display: flex;
+  
+}
+.CardsContent1Wrap {
+  padding: 30px;
+  margin: auto;
+}
+.CardsContent1 span {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  
+  
+  /* Dark Blue */
+  
+  color: #0A2640;
+}
+.CardsContent1 h3 {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+
+/* Gray */
+
+color: #777777;
+}
+
+.cardContent {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+width: 85%;
+color: #000000;
+}
+
+.CardsWrapper {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.testimonyImg {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.titles {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cardTitle {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+
+color: #000000;
+}
+.cardPosition {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.cardPosition img {
+  width: 30px;
+}
+.titles > div {
+text-align: start !important;
+}
+.CardsWrapper {
+  padding: 40px;
+}
+.title {
+  display: flex;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #68718d;
+}
+.page {
+  display: flex;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+/* identical to box height, or 180% */
+
+
+color: #0A2640;
+}
+.page img{
+ width: 100%;
+ padding-top: 5px;
+}
+.CardsContent h3{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  
+  
+  color: #000000;
+}
+.service h2{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+ text-align: center;
+ width: 50%;
+ margin: auto;
+}
+.start {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+  display: flex;
+  border-radius: 24px;
+  margin-top: -9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  letter-spacing: -0.02em;
+  background: #0A2640;
+  /* Dark Blue */
+  color: #fff;
+  border: 2px solid #0A2640;
+  cursor: pointer;
+}
+.buy {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+  display: flex;
+  border-radius: 24px;
+  margin-top: -9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  letter-spacing: -0.02em;
+  background: #65E4A3;
+border: 2px solid #69E6A6;
+  cursor: pointer;
+}
+.load {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+margin: auto;
+line-height: 28px;
+  display: flex;
+  border-radius: 24px;
+  margin-top: -9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  letter-spacing: -0.02em;
+  background: #fff;
+border: 2px solid #000;
+  cursor: pointer;
+}
+.enterprise {
+  background: #0A2640;
+border-radius: 12px;
+padding: 40px;
+color: white
+}
+.actions {
+  display: flex;
+gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.enterprise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.explore {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+border: none;
+  font-style: normal;
+  display: flex;
+  border-radius: 24px;
+  margin-top: -9px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  letter-spacing: -0.02em;
+  background: #0A2640;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.brands {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.oneCard {
+  color: #0078ff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 67px;
+  letter-spacing: -0.03em;
+}
+.Star {
+  max-width: 100%;
+}
+.hero {
+  background: #0A2640;
+
+}
+.testimonies {
+  background: #0A2640;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.testimoniesWrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+.testimoniesWrapper >div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.testimoniesWrapper >div > h1{
+  width: 50%;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+}
+.testimonyImg {
+  display: flex;
+}
+.testimonies h1 {
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.BusinessContainer {
+  display: flex;
+  gap: 25px;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 100px 0px 30px 0px;
+}
+.BusinessContainer h2 {
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 72px;
+/* or 150% */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+.BusinessWrapper p {
+  padding-bottom: 20px;
+  color: #fff !important;
+}
+.AuthBtn {
+  display: flex;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.BusinessComponent {
+  background: #0A2640;
+  margin: 0 auto;
+  width: 92%;
+}
+.DesignImg {
+  display: flex;
+  gap: 20px;
+  padding: 30px 0px;
+}
+.BusinessWrapper p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  max-width: 450px;
+  letter-spacing: -0.02em;
+
+  color: #8a91a8;
+}
+@media (max-width: 850px) {
+  .BusinessContainer {
+    padding: 15px 0px;
+    display: block;
+  }
+  .connect2Body, .cardContent {
+    width: 100% !important;
+  }
+  .testimonyImg {
+    width: 120px;
+  }
+  .service p {
+    font-size: 16px;
+  }
+  .customerBody > div, .connect2 h3, .connect h3 {
+    font-size: 25px;
+    width: 100% !important;
+  }
+  .service h2 {
+    font-size: 20px;
+    width: 90%;
+    line-height: 30px;
+  }
+  .AuthBtn {
+    display: block;
+  }
+  .explore {
+    margin-top: 30px;
+  }
+  .highlight {
+    grid: flex !important;
+    align-items: center !important;
+  }
+  .cardTitle {
+    font-size: 15px !important;
+  }
+  .mark p {
+    font-family: 'Open Sans' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  /* line-height: 22px !important; */
+  /* or 160% */
+  padding-top: 0px !important;
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+  }
+  .BusinessWrapper {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 20px;
+  }
+  .DesignImg {
+    display: block;
+  }
+  .DesignImg2 {
+    margin: 18px 0px;
+  }
+  .BusinessWrapper p {
+    padding: 18px 0px;
+  }
+  .BusinessWrapper h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: -0.03em;
+    max-width: 450px;
+    color: #fff;
+  }
+  .Cards, .connect,.connect2, .testimoniesWrapper >div, .customerBody, .actions {
+    display: block;
+  }
+  .testimoniesWrapper > div > h1 {
+    font-size: 32px;
+    width: 98% !important;
+  }
+  .highlight p {
+    font-size: 19px !important;
+  }
+}
+
